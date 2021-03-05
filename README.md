@@ -1,7 +1,7 @@
 
 # Obsidian + gruvbox alternative
 
-This is my take on the [Obsidian gruvbox style by insanum](https://github.com/insanum/obsidian_gruvbox). My motivation for the changes was to add more contrast and larger fonts. List of changes [here](#changes).
+This is my take on the [Obsidian gruvbox style by insanum](https://github.com/insanum/obsidian_gruvbox). I wanted larger fonts and more contrast (you can guess why), but ended up making small cosmetic changes. The graph view is the default one. List of changes [here](#changes).
 
 ![](dark.png)
 
