@@ -271,12 +271,13 @@ img {
 
 /* adaptive line length */
 
-.CodeMirror-lines,
+
+/* .CodeMirror-lines,
 .CodeMirror-selected,
 .markdown-preview-section {
     max-width: 50em;
     margin: auto;
-}
+} */
 
 .markdown-preview-section pre code,
 .markdown-preview-section code {
@@ -507,4 +508,47 @@ input.task-list-item-checkbox:checked {
 
 .mermaid .note {
     fill: var(--dark3) !important;
+}
+
+
+/* add spacing before and after lists */
+
+ul {
+    list-style: disc;
+    padding: 0px 20px 0px 20px;
+}
+
+ol {
+    padding: 0px 20px 0px 20px;
+}
+
+
+/* add small spacing between list items for readability */
+
+li {
+    margin: 5px 0;
+}
+
+ul li {
+    list-style: disc;
+}
+
+ul li li {
+    list-style: square;
+}
+
+ul li li li {
+    list-style: circle;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+ol li li {
+    list-style: lower-roman;
+}
+
+ol li li li {
+    list-style: lower-latin;
 }
